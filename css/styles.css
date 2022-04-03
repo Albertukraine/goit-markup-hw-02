@@ -155,7 +155,6 @@ line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 background-color: #F5F4FA;
-cursor: pointer;
 }
 .filter-btn:hover,.filter-btn:focus{
 font-style: normal;
@@ -166,6 +165,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 background-color: var(--accent-color);
+cursor: pointer
 }
 /* gallery */
 .card-item{}
