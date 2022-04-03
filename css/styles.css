@@ -1,0 +1,187 @@
+
+
+:root{
+    --accent-color: #2196F3;
+    --background-dark-color: #2F303A;
+    --card-description-color: #757575;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+color: #212121;}
+
+.link{text-decoration: none; color: inherit;}
+.list{list-style: none;}
+/* header - logo - nav - contacts */
+.logo{
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--accent-color);
+text-transform: capitalize;
+}
+.black{
+    color: black;
+}
+
+.menu-link{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-transform:capitalize }
+.menu-link:hover,.menu-link:focus{color: var(--accent-color)}
+
+.header-phone{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;}
+
+.header-phone:hover,.header-phone:focus{color: var(--accent-color)}
+
+/* body - hero - */
+.hero-title{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: var(--background-dark-color);}
+.modal-btn{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: var(--accent-color);
+    cursor: pointer;}
+
+/* преимущества */
+.hidden-title{opacity: 0;}
+.benefits-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+.description{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;}
+/* чем мы занимаемся */
+.about-us-images{}
+.about-us-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;}
+/* наша команда */
+.our-team-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;}
+
+.employees-names{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.employee-description{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+/* footer */
+.footer{background-color: var(--background-dark-color);}
+.white {color:white}
+.address{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.address:hover,.address:focus{color: var(--accent-color)}
+.contact-footer{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6)
+}
+.contact-footer:hover,.contact-footer:focus{color: var(--accent-color)}
+
+/* portfolio page */
+/* BUTTONS */
+.filter-btn{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: #F5F4FA;
+}
+.filter-btn:hover,.filter-btn:focus{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+background-color: var(--accent-color);
+
+}
+.card-item{}
+.card-name{
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.card-description{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--card-description-color)
+}
+.card-item:hover,.card-item:focus{ 
+    box-shadow: 10px 10px 0 #212121;}
