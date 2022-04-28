@@ -37,7 +37,7 @@ letter-spacing: 0.02em;
 text-transform:capitalize }
 .menu-link:hover,.menu-link:focus{color: var(--accent-color)}
 
-.header-phone{
+.header-contacts{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -45,7 +45,7 @@ text-transform:capitalize }
     letter-spacing: 0.02em;
     color: #757575;}
 
-.header-phone:hover,.header-phone:focus{color: var(--accent-color)}
+.header-contacts:hover,.header-contacts:focus{color: var(--accent-color)}
 
 /* body - hero - */
 .hero-title{
