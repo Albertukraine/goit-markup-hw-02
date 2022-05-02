@@ -1,6 +1,7 @@
 :root {
   --accent-color: #2196f3;
   --logo-main: #000;
+  --logo-light: #ffffff;
   --background-dark-color: #2f303a;
   --filter-btn-background-color: #f5f4fa;
   --card-description-color: #757575;
@@ -20,7 +21,7 @@ body {
 
 .link {
   text-decoration: none;
-  color: inherit;
+  color: currentColor;
 }
 .list {
   list-style: none;
@@ -56,10 +57,21 @@ body {
   color: var(--accent-color);
 }
 
-
+.header-contacts {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-contacts-color);
+}
+/* all contacts hovers */
 
 .header-contacts:hover,
-.header-contacts:focus {
+.header-contacts:focus,
+.contact-footer:hover,
+.contact-footer:focus,
+.address:hover,
+.address:focus {
   color: var(--accent-color);
 }
 
@@ -158,7 +170,7 @@ body {
   background-color: var(--background-dark-color);
 }
 .white {
-  color: white;
+  color: var(--logo-light);
 }
 .address {
   font-style: normal;
@@ -166,31 +178,15 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--background-body-color);
 }
-.address:hover,
-.address:focus {
-  color: var(--accent-color);
-}
+
 .contact-footer {
   font-style: normal;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.header-contacts {
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--header-contacts-color);
-  }
-
-.contact-footer:hover,
-.contact-footer:focus {
-  color: var(--accent-color);
 }
 
 /* portfolio page */
@@ -215,7 +211,7 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--modal-btn-font-color);
   background-color: var(--accent-color);
   cursor: pointer;
 }
